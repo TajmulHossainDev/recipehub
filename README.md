@@ -1,36 +1,78 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# RecipeHub
 
-## Getting Started
+A modern recipe sharing web application where users can discover, add, update, and manage recipes.
 
-First, run the development server:
+## Live Links
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Live Site:https://recipehub-bice.vercel.app/
+- Client Repository:https://github.com/TajmulHossainDev/recipehub
+- Server Repository:https://github.com/TajmulHossainDev/recipehub-server
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- User Authentication (Email/Google Login)
+- Add New Recipes
+- Update & Delete Own Recipes
+- View All Recipes
+- Recipe Details Page
+- Like/Favorite Recipes
+- Responsive Design
+- Protected Routes
+- Search Recipes
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Technologies Used
 
-## Learn More
+### Frontend
+- React
+- React Router
+- Tailwind CSS
+- next js
+- framer-motion
+- mongodb
+- better-auth
+- stripe
 
-To learn more about Next.js, take a look at the following resources:
+### Backend
+- Express.js
+- MongoDB
+- cors
+- dotenv
+- stripe
+- jwt
+## npm Packages
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+-"@heroui/react": "^3.2.1",
+-  "@heroui/styles": "^3.2.1",
+- "@stripe/react-stripe-js": "^6.6.0",
+- "@stripe/stripe-js": "^9.8.0",
+- "better-auth": "^1.6.20",
+- "framer-motion": "^12.42.0",
+- "mongodb": "^7.4.0",
+- "next": "16.2.9",
+- "react": "19.2.4",
+- "react-dom": "19.2.4",
+- "react-icons": "^5.6.0"
+## server  site package
+- "@better-auth/mongo-adapter": "^1.6.20",
+- "better-auth": "^1.6.20",
+- "cookie-parser": "^1.4.7",
+- "cors": "^2.8.6",
+- "dotenv": "^17.4.2",
+- "express": "^5.2.1",
+- "jose-cjs": "^6.2.3",
+- "jsonwebtoken": "^9.0.3",
+- "jwks-rsa": "^4.1.0",
+- "mongodb": "^7.3.0",
+- "stripe": "^22.2.3"
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+ ## My Contributions
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Designed and developed the complete frontend UI.
+- Implemented better auth Authentication.
+- Built private/protected routes.
+- Connected frontend with API.
+- Added CRUD functionality for recipes.
+- Implemented responsive design for mobile, desktop.
+- Added search and filtering functionality.
+- Improved user experience with loading states and alerts.
+ 
